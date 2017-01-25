@@ -15,7 +15,7 @@ def repeat(rpt, times=2)
 	x = x[0..-2] #spliced the last space
 	return x
 end
-
+	
 #splices a word based on the range. -1 because it counts 0 aswell.
 def start_of_word(word,range)
 	return word[0..range-1]
